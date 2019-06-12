@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    h1 #{title}
+    form(method='POST', action='/students/add')
+        #form-group
+            label Firstname: 
+            input.form-control(name='fname', type='text')
+        br
+        #form-group
+            label Surname: 
+            input.form-control(name='surname', type='text')
+        br
+        #form-group
+            label Age: 
+            input.form-control(name='age', type='number')
+        br
+        #form-group
+            label Subject of Enquiry: 
+            input.form-control(name='subject', type='text')
+        br
+        #form-group
+            label Admin: 
+            input.form-control(name='admin', type='text')
+        br
+        input.btn.btn-primary(type='submit', value='Submit')

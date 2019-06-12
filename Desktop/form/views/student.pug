@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1= student.fname + " " + student.surname
+    h5 Admin: #{student.admin}
+    p Age: #{student.age}
+    p Subject of Enquiry: #{student.subject}
+    
+    hr
+    a.btn.btn-success(href='/students/edit/'+student._id) Edit Student
+    a.btn.btn-danger.delete-student(href='#', data-id=student._id) Delete Student
