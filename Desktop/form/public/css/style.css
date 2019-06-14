@@ -1,3 +1,14 @@
+body {
+    height: 100vh !important;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/bg-body1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 .alert-success {
     color: #155724;
     background-color: #d4edda;
@@ -21,4 +32,123 @@
 
 nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
     background-color: #000 !important;
+}
+
+.col-sm-11 {
+    text-align: center;
+    display: block;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 85vh;
+    margin: auto;
+    padding: 0 !important;
+}
+
+ul.list-group {
+    width: 50%;
+    margin: auto !important;
+    padding: 0 !important;
+}
+
+footer {
+    height: 50px;
+    background-color: #000;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0 !important;
+    width: 100%;
+}
+
+footer p {
+    margin: 0 !important;
+    color: #888;
+}
+
+div#form-group {
+    display: flex;
+}
+
+.lbl {
+    width: 20%;
+    text-align: left;
+}
+
+.inpt {
+    width: 80%;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+}
+
+li.list-group-item {
+    margin-top: 10px;
+    border: none;
+    background-color: yellowgreen;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.list-group-item a {
+    color: #57552d;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+a.btn.btn-success {
+    background-color: yellowgreen;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 20%;
+}
+
+a.btn.btn-danger.delete-student {
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 20%;
+}
+
+.list-group-item a:hover {
+    color: #fdfdfd !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+}
+
+input.form-control {
+    border: 0 !important;
+    background-color: yellowgreen;
+    color: #313d36;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+input.btn.btn-primary {
+    background-color: #000;
+    border: none;
+    width: 30%;
+    text-transform: uppercase;
+}
+
+input.btn.btn-primary:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #888 !important;
 }
